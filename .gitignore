@@ -1,0 +1,34 @@
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Env files
+.env
+.env.*
+!.env.example
+
+# Frontend (Next.js)
+arena-frontend/node_modules/
+arena-frontend/.next/
+arena-frontend/out/
+arena-frontend/build/
+arena-frontend/coverage/
+arena-frontend/.vercel/
+arena-frontend/*.tsbuildinfo
+
+# Backend (Python)
+arena-backend/venv/
+arena-backend/.venv/
+arena-backend/__pycache__/
+arena-backend/**/*.py[cod]
+arena-backend/.pytest_cache/
+arena-backend/.mypy_cache/
+arena-backend/.ruff_cache/
+arena-backend/.coverage
+arena-backend/.coverage.*
+arena-backend/htmlcov/
